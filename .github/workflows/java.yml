@@ -35,4 +35,4 @@ jobs:
 
       # Executa o programa
       - name: Executar
-        run: java -cp scr Main
+        run: java -cp src PRATICA_2.Main
