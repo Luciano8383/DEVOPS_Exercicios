@@ -1,17 +1,13 @@
 package PRATICA_2;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(System.in);
 
         Main calculadora = new Main();
 
-        System.out.println("Digite o primeiro número: ");
-        double numero1 = sc.nextDouble();
+        double numero1 = 5.0;
 
-        System.out.println("Digite o segundo número: ");
-        double numero2 = sc.nextDouble();
+        double numero2 = 8.0;
 
         System.out.println("A soma dos dois numeros é: " + calculadora.somar(numero1, numero2));
         System.out.println("A subtracao dos dois numeros é: " + calculadora.subtrair(numero1, numero2));
